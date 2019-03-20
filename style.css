@@ -1,0 +1,44 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+
+body{
+  font-family: 'Roboto Mono', monospace;
+}
+
+div{
+  padding: 10px
+}
+
+h3{
+  width: 440px;
+}
+
+.active {
+  border-style: dotted;
+  width: 150px;
+}
+
+.icons{
+  display: flex;
+}
+
+
+.main{
+  margin: auto;
+  width: 50%;
+}
+
+.roll:hover, .hold:hover, .new-game:hover{
+  opacity: 1;
+  color: gray;
+
+  /* padding: .5px;*/
+}
+
+
+.winner{
+  color: #f9989f;
+  font-size: 30px;
+}
