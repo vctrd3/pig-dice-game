@@ -16,9 +16,14 @@ h3{
 }
 
 .active {
+  border-radius: 10px;
   border-style: dotted;
   width: 150px;
 }
+
+/* i{
+  cursor: pointer;
+} */
 
 .icons{
   display: flex;
@@ -33,6 +38,7 @@ h3{
 .roll:hover, .hold:hover, .new-game:hover{
   opacity: 1;
   color: gray;
+  cursor: pointer;
 
   /* padding: .5px;*/
 }
